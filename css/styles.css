@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  color: black;
+  background-color: #f4f4f8;
+  font-family: "Proza Libre", sans-serif;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  text-transform: none;
+}
+
+h2 {
+  margin: 30px 0;
+}
+
+h3 {
+  margin: 0px;
+  text-transform: capitalize;
+  color: firebrick;
+}
+
+/* Navigation */
+
+header {
+  padding-top: 30px;
+}
+
+.main-nav {
+  padding: 20px 0;
+}
+
+.main-nav li {
+  background-color: #e6e6ea;
+  margin: 10px 0;
+  padding: 10px;
+  list-style: none;
+}
+
+img {
+  width: 80%;
+  height: auto;
+}
+
+#portfolio p {
+  margin-bottom: 30px;
+}
+
+.background-01 {
+  background: url(../images/texture_background.jpg) repeat top center;
+  padding: 0 20px 20px 20px;
+}
+
+.lead {
+  margin: 10px;
+}
+
+/* Utilitly Class */
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.responsive {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.responsive2 {
+  width: 50%;
+  height: auto;
+}
+
+.contact {
+  padding: 5px 10px 10px 10px;
+}
+
+.contact p {
+  margin: 10px 0;
+}
+
+.skills {
+  margin-bottom: 30px;
+}
+
+/* Footer */
+
+#main-footer {
+  overflow: auto;
+  padding: 10px 0;
+}
+
+#main-footer .footer-nav {
+  display: none;
+}
+
+#main-footer h4 {
+  float: left;
+}
+
+#main-footer a {
+  float: right;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: auto;
+  }
+
+  .main-nav li {
+    display: inline-block;
+    padding: 0;
+    background: none;
+  }
+  .main-nav li a {
+    margin: 0 10px;
+  }
+
+  .wrapper {
+    padding: 20px 0;
+  }
+
+  .profile-tablet {
+    width: 50%;
+    float: right;
+  }
+
+  .lead {
+    float: left;
+    text-align: justify;
+    width: 50%;
+    margin: 0;
+    padding-right: 10px;
+  }
+
+  .left {
+    width: 48%;
+    float: left;
+    overflow: auto;
+    margin-top: 0;
+  }
+
+  .right {
+    width: 48%;
+    float: right;
+    overflow: auto;
+  }
+
+  .ipad-left {
+    width: 50%;
+    float: left;
+  }
+
+  .ipad-right {
+    width: 50%;
+    float: right;
+  }
+
+  .contact p {
+    width: 65%;
+    margin: 20px auto;
+  }
+
+  #main-footer .footer-nav {
+    display: inline-block;
+    float: right;
+  }
+
+  #main-footer .footer-nav li {
+    list-style: none;
+    margin-left: 20px;
+    float: left;
+  }
+
+  #main-footer p {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    width: 90%;
+    max-width: 1080px;
+  }
+  .main-nav {
+    float: right;
+    padding: 0;
+  }
+
+  .main-nav li {
+    background: none;
+  }
+
+  .main-nav li a,
+  .footer-nav li a {
+    border-bottom: 4px solid transparent;
+  }
+
+  .main-nav li a:hover {
+    border-bottom: 4px solid black;
+  }
+
+  .footer-nav li a:hover {
+    border-bottom: 4px solid black;
+  }
+
+  h1 {
+    float: left;
+    margin: 0;
+  }
+
+  .profile-tablet {
+    width: 40%;
+  }
+
+  .lead {
+    width: 60%;
+    font-size: 1.4rem;
+    margin: 0;
+    padding-right: 10px;
+    text-align: left;
+  }
+
+  #portfolio p {
+    margin: 0 20px 30px 20px;
+  }
+
+  .left-01 {
+    width: 32%;
+    float: left;
+  }
+
+  .right-01 {
+    width: 32%;
+    float: right;
+  }
+
+  .middle {
+    margin: 0 17px;
+  }
+
+  .skills {
+    float: left;
+    width: 30%;
+    margin: 15px;
+  }
+
+  .java {
+    float: right;
+  }
+
+  .middle-01 {
+    padding: 0;
+  }
+}
