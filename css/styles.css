@@ -32,6 +32,9 @@ p {
 h3 {
   margin-top: 0.5rem;
   text-transform: capitalize;
+}
+
+.h2-font {
   color: firebrick;
 }
 
@@ -165,6 +168,11 @@ h3 {
     margin-bottom: 4rem;
   }
 
+  #intro p {
+    font-size: 2rem;
+    padding-right: 2rem;
+  }
+
   .col {
     width: 49%;
     min-height: 35rem;
@@ -238,18 +246,20 @@ h3 {
   }
 
   .main-nav li a:hover,
-  .foot-nav li a:hover {
+  .foot-nav li a:hover,
+  .details:hover {
     border-bottom: 0.4rem solid;
     color: firebrick;
   }
 
-  #main-section h2 {
-    margin-bottom: 0;
+  .main-nav li a:focus,
+  .foot-nav li a:focus,
+  .details:focus {
+    color: #ffacac;
   }
 
-  #intro p {
-    font-size: 2rem;
-    padding-right: 2rem;
+  #main-section h2 {
+    margin-bottom: 0;
   }
 
   .col {
@@ -264,10 +274,5 @@ h3 {
     width: 30%;
     float: left;
     padding-left: 10rem;
-  }
-
-  .contact a:hover {
-    color: firebrick;
-    border-bottom: 0.4rem solid;
   }
 }
