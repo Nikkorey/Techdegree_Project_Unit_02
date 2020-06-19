@@ -68,7 +68,7 @@ h3 {
 #main-section {
   padding: 4rem 2rem;
   margin-bottom: 4rem;
-  background: url(../images/texture_background.jpg) repeat top center;
+  background: rgb(233, 232, 232);
 }
 
 .contact {
