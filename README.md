@@ -4,4 +4,19 @@
 
 ## **Description**
 
-`Designing web pages that look and function well on multiple screen sizes is an essential skill for a web developer. Using HTML, CSS, and responsive design, you'll create a mobile-first web page with a layout that adjusts to fit mobile phones, tablets, and desktop displays.`
+For this project I had to build a responsive, mobile-first layout using HTML and CSS. I was given three image mockups for a mobile, tablet, and desktop layout. I had to match the designs perfectly, where I had to write CSS to style the page for a small mobile device first. Then, using min-width media queries, I had to add breakpoints to adjust the layout for wider tablet and desktop screens.
+
+I went for the Exceeds Expectations Grading where I had to:
+
+* Further enhance the project by adding an additional Google font.
+* Add an additional skills section to the page.
+* Add additional styling to links.
+
+Browsers tested for compatibility:
+
+* Chrome
+* Firefox
+* Edge
+* Safari
+
+Grade: Exceeds Expectations
