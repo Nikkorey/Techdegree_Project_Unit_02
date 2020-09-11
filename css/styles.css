@@ -38,8 +38,12 @@ p {
 }
 
 .heading__three {
-  /* margin-top: 0.5rem; */
   text-transform: capitalize;
+}
+
+/* Utility Class*/
+.container {
+  padding: 2rem;
 }
 
 /* Navigation */
@@ -81,7 +85,7 @@ p {
 /* Portfolio Section */
 .portfolio {
   padding: 4rem 2rem;
-  background: rgb(233, 232, 232);
+  background: #e6e6ea;
 }
 
 .portfolio__item:not(:first-child) {
@@ -93,29 +97,23 @@ p {
   height: auto;
 }
 
-/* Utility Class*/
-.container {
-  width: 90%;
-  margin: 0 auto;
-}
-
 /* Skills Section */
 .skills {
   overflow: hidden;
   padding: 2rem 0;
 }
-.skills__items {
-  float: left;
-  width: 45%;
+
+.skills__img {
+  width: 100%;
 }
 
 .skills__items {
-  margin-left: 1.5rem;
+  float: left;
   margin-top: 2rem;
 }
 
-.skills__img {
-  width: 60%;
+.skills__item-right {
+  float: right;
 }
 
 /* Contact Section */
@@ -148,6 +146,7 @@ p {
   float: left;
 }
 
+/* Tablet  */
 @media (min-width: 768px) {
   /* Navigation 768px tablet  */
   .nav__items {
@@ -157,8 +156,6 @@ p {
     padding: 2rem;
     margin: 0;
   }
-
-  /* Header 768px tablet */
 
   .header {
     overflow: auto;
@@ -178,21 +175,22 @@ p {
     padding-right: 2rem;
   }
 
-  /* Portfolio Section 768px tablet */
   .portfolio {
     overflow: auto;
   }
 
   .portfolio__item {
-    width: 50%;
+    width: 49%;
     float: left;
   }
 
-  .portfolio p {
-    padding: 0 3rem;
+  .portfolio__item-right {
+    float: right;
   }
-  /* .portfolio__item:not(:first-child) {
-  } */
+
+  .portfolio p {
+    padding: 0 2rem;
+  }
 
   /* Skills Section 768px tablet */
   .skills {
@@ -201,7 +199,7 @@ p {
   }
 
   .skills__items {
-    width: 31.5%;
+    width: 50%;
     float: left;
   }
 
@@ -269,4 +267,8 @@ p {
     border-bottom: 0.4rem solid;
     color: firebrick;
   }
+
+  /* .portfolio__item {
+    width: 33%;
+  } */
 }
